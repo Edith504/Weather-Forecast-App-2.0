@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Weather App</h2>
+
+        <form>
+            <label for="city">Enter a location for Weather information</label><br>
+            <input type="text" name="city">
+        </form>
+
+        <div class="card" style="display: none;">
+            <!--占位图片-->
+            <img src="https://via.placeholder.com/400*300" alt="picture not shown" class="time">
+
+            <div class="icon">
+                <img src="" alt="">    
+            </div>
+
+            <div class="details">
+                <h4>City Name</h4>
+                <div>Weather Condition </div>
+                <div>
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="forecast.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
